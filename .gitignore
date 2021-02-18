@@ -1,0 +1,39 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+src/GoMarketplace.Mobile/node_modules
+src/GoMarketplace.Mobile/.pnp
+src/GoMarketplace.Mobile/.pnp.js
+
+
+
+src/GoMarketplace.Mobile/node_modules
+src/GoMarketplace.Mobile/.pnp
+src/GoMarketplace.Mobile/.env
+src/GoMarketplace.Mobile/ormconfig.json
+src/GoMarketplace.Mobile/.pnp.js
+src/GoMarketplace.Mobile/build/
+src/GoMarketplace.Mobile/temp/
+src/GoMarketplace.Mobile/tmp/*
+src/GoMarketplace.Mobile/!tmp/.gitkeep
+
+# testing
+src/GoMarketplace.Mobile/coverage
+src/GoMarketplace.Mobile/coverage
+
+# production
+src/GoMarketplace.Mobile/build
+src/GoMarketplace.Mobile/dist
+src/GoMarketplace.Mobile/dist
+
+# misc
+src/GoMarketplace.Mobile/.DS_Store
+src/GoMarketplace.Mobile/.env
+src/GoMarketplace.Mobile/.env.local
+src/GoMarketplace.Mobile/.env.development.local
+src/GoMarketplace.Mobile/.env.test.local
+src/GoMarketplace.Mobile/.env.production.local
+
+src/GoMarketplace.Mobile/npm-debug.log*
+src/GoMarketplace.Mobile/yarn-debug.log*
+src/GoMarketplace.Mobile/yarn-error.log*
